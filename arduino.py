@@ -2,7 +2,7 @@ import asyncio
 import serial
 import websockets
 
-arduino_port = '/dev/cu.usbmodem11201'  # Update with your port
+arduino_port = '/dev/cu.usbmodem11201'  # update with your port
 websocket_port = 8765 # change to port you want to use
 
 baud_rate = 9600
