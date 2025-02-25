@@ -13,9 +13,6 @@ Change the port in arduino.py to your arduino port.
 
 Change the websocket port (default here is 8765) in arduino.py and app/src/lib/App.svelte
 
-Finally, change the route to App.svelte to your local route in _app/src/routes/+page.svelte_.
-You can copy path of App.svelte on your local machine from _app/lib/App.svelte_ and paste it in _app/src/routes/+page.svelte_.
-
 ## Python Environment
 `
 python3 -m venv env
